@@ -27,7 +27,7 @@ Pour accéder à un élément en particulier, vous pouvez utiliser des crochets 
 ```javascript
 let i = 0;
 while(i < elements.length) { // length contient la longueur de la collection d'éléments.
-    let element = elements[i]; // Récupère l'élément à l'index i, qui chage à chaque tour de boucle.
+    let element = elements[i]; // Récupère l'élément à l'index i, qui change à chaque tour de boucle.
     element.innerHTML = "La variable i vaut: " + i;
     i++;
 }
